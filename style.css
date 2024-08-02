@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2&family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Poetsen+One&family=Poppins:ital,wght@1,200&family=Teko&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: hsl(212, 45%, 89%);
+}
+
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.qrbox {
+  background-color: #fff;
+  width: 230px;
+  padding: 12px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 80vw;
+}
+
+img {
+  width: 230px;
+  border-radius: 10px;
+  max-width: 80vw;
+}
+
+p {
+  font-family: "Outfit", sans-serif;
+  text-align: center; 
+}
+p.line1 {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 15px 10px 5px;
+}
+
+p.line2 {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 5px 10px 15px;
+    color: slategray;
+}
