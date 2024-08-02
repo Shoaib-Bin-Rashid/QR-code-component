@@ -7,7 +7,7 @@ body {
   background-color: hsl(212, 45%, 89%);
 }
 
-.page {
+main {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -16,7 +16,7 @@ body {
 
 .qrbox {
   background-color: #fff;
-  width: 230px;
+  width: 260px;
   padding: 12px;
   border-radius: 15px;
   display: flex;
@@ -27,23 +27,22 @@ body {
 }
 
 img {
-  width: 230px;
+  width: 260px;
   border-radius: 10px;
   max-width: 80vw;
 }
 
-p {
+p,h1 {
   font-family: "Outfit", sans-serif;
   text-align: center; 
 }
-p.line1 {
-    font-size: 18px;
-    font-weight: 700;
+h1 {
+    font-size: 20px;
     margin: 15px 10px 5px;
 }
 
 p.line2 {
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 400;
     margin: 5px 10px 15px;
     color: slategray;
